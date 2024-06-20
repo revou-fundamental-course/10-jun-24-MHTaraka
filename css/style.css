@@ -1,0 +1,194 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 729.6px;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: navajowhite;
+    height: 108.6px;
+    width: 100%;
+}
+
+h1{
+    letter-spacing: 2px;
+    font-family: "Bungee", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: navy;
+    font-size: 50px;
+}
+
+main{
+    background-color: navy;
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2{
+    color: navajowhite;
+    font-family: "Patrick Hand SC", cursive;
+    letter-spacing: 1px;
+    font-size: xx-large;
+}
+
+.box{
+    background-color: navajowhite;
+    height: 350px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 30px;
+}
+
+.konversiInput{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.inputan{
+    display: flex;
+    flex-direction: column;
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: bold;
+    font-size:x-large;
+}
+
+label{
+    padding: 5px;
+    color: navy;
+
+}
+
+input{
+    font-family: "Patrick Hand SC", cursive;
+    color: navy;
+    height: 80px;
+    width: 500px;
+    font-size: 50px;
+    padding-left: 10;
+    border-radius: 10px;
+    background-color: transparent;
+    border: solid navy 3.5px;
+    caret-color: navy ;
+    outline: 0;
+}
+
+textarea{
+    font-family: "Patrick Hand SC", cursive;
+    color: navy;
+    height: 80px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 50px;
+    border: solid navy 3.5px;
+    padding: 2.7px 10px;
+    resize: none;
+    outline: 0;
+}
+
+.tombol{
+    margin-top: 20px;
+    height: 50px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 400px; */
+    font-weight: bold;
+}
+
+button{
+    font-family: "Patrick Hand SC", cursive;
+    background-color: navy;
+    border-radius: 10px;
+    border: transparent;
+    width: 150px;
+    font-size: 30px;
+    color: navajowhite;
+    transition: background-color 0.2s ;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(59, 59, 134);
+}
+
+.perhitungan{
+    height: 150px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rumusKonversi{
+    font-family: "Patrick Hand SC", cursive;
+    height: 80px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 50px;
+    border: solid navy 3.5px;
+    padding: 2.7px 10px;
+}
+
+footer{
+    height: 170px;
+    width: 100%;
+    background-color: navajowhite;
+}
+
+.judulCara{
+    color: navy;
+    font-family: "Patrick Hand SC", cursive;
+    font-size: xx-large;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 10px 20px;
+}
+
+p{
+    font-family: "Patrick Hand SC", cursive;
+    font-size: x-large;
+    font-weight: bold;
+    color: navy;
+    padding: 0px 20px;
+}
+
+.rumusAsli{
+    padding-top: 10px;
+}
+
+.varS{
+    font-family: "Patrick Hand SC", cursive;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.simbolKecil{
+    font-size: 15px;
+}
